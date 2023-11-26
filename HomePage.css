@@ -1,0 +1,67 @@
+
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('F:\Accessible\my-app\src\homie1 (1).jpg');
+    /* Set the background size to cover the entire viewport */
+    background-size: cover;
+    /* Set the background to not repeat */
+    background-repeat: no-repeat;
+    /* Center the background image */
+    background-position: center;
+    margin: 0;
+  padding: 490px;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .key-information,
+  .challenge-objectives,
+  .highlighted-features,
+  .call-to-action,
+  .about-the-challenge,
+  .testimonials {
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 2px solid #007BFF;
+    padding-left: 20px;
+    margin: 20px 0;
+  }
+  
+  cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #555;
+  }
+  

@@ -1,0 +1,49 @@
+/* Add this CSS to your component or global stylesheet */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  li[selected='true'] {
+    font-weight: bold;
+    background-color: #ccebff;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #666;
+  }
+  

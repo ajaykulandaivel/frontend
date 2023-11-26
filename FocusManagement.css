@@ -1,0 +1,83 @@
+/* src/components/FocusManagement.css */
+
+.focus-management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3498db;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  .menu-button {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-button:hover {
+    background-color: #2577ae;
+  }
+  
+  .menu {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    display: block;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 4px;
+  }
+  

@@ -1,0 +1,65 @@
+/* src/components/AccessibleForm.css */
+
+.accessible-form {
+    width: 300px;
+    margin: 30px auto;
+    padding: 80px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #3498db;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  small {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  button {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2577ae;
+  }
+  

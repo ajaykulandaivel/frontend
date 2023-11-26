@@ -1,0 +1,43 @@
+/* Settings.css */
+
+/* Container styles */
+div {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input styles */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  /* Additional styles as needed */
+  

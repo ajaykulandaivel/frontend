@@ -1,0 +1,37 @@
+/* src/components/Shortcut.css */
+
+.shortcut-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .shortcut-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .shortcut-list li {
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .shortcut-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  

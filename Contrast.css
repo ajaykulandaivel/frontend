@@ -1,0 +1,40 @@
+/* Styles for the Contrast component */
+.app-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #1ed2c0;
+    color: white;
+    padding: 10px;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  /* High Contrast Styles */
+  .high-contrast {
+    background-color: #fff; /* Change to a high contrast background color */
+    color: #000; /* Change to a high contrast text color */
+  }
+  
+  /* Accessibility Enhancements */
+  button {
+    cursor: pointer;
+    outline: none; /* Remove default outline */
+  }
+  
+  button:focus {
+    outline: 2px solid #4d90fe; /* Add a focus outline for accessibility */
+  }
+  
+  /* Other styles for improved readability in high contrast mode */
+  .high-contrast p {
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #000; /* Adjust text color for improved readability in high contrast mode */
+  }
+  
